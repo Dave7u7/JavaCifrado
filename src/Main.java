@@ -8,11 +8,11 @@ public class Main {
 
     public static void main(String[] args) {
         String archivoOrigen =
-                "C:\\Users\\Pavilion\\Documents\\MISTI\\B22\\ProgramacionJava\\Cifrados\\CESAR_PLANO.txt";
+                "C:\\Users\\DAVID\\Documents\\MISTI\\TEXTO\\texto_plano.txt";
         String archivoCifrado =
-                "C:\\Users\\Pavilion\\Documents\\MISTI\\B22\\ProgramacionJava\\Cifrados\\CESAR_CIFRADO.txt";
+                "C:\\Users\\DAVID\\Documents\\MISTI\\TEXTO\\texto_cifrado.txt";
         String archivoDesCifrado =
-                "C:\\Users\\Pavilion\\Documents\\MISTI\\B22\\ProgramacionJava\\Cifrados\\CESAR_DECIFRADO.txt";
+                "C:\\Users\\DAVID\\Documents\\MISTI\\TEXTO\\texto_decifrado.txt";
 
         FileAdaptor fileAdaptor = new FileAdaptor();
         Cesar cesar = new Cesar(leerModuloCesar());
