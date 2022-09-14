@@ -7,10 +7,13 @@ import static misti.java.utils.utils.leerModuloCesar;
 public class Main {
 
     public static void main(String[] args) {
+        // Ruta del archivo con el texto a cifrar
         String archivoOrigen =
                 "C:\\Users\\DAVID\\Documents\\MISTI\\TEXTO\\texto_plano.txt";
+        // Ruta donde se guardara el archivo cifrado
         String archivoCifrado =
                 "C:\\Users\\DAVID\\Documents\\MISTI\\TEXTO\\texto_cifrado.txt";
+        // Ruta donde se guardara el archivo decifrado
         String archivoDesCifrado =
                 "C:\\Users\\DAVID\\Documents\\MISTI\\TEXTO\\texto_decifrado.txt";
 
